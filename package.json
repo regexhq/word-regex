@@ -1,0 +1,47 @@
+{
+  "name": "word-regex",
+  "description": "Regular expression for matching words in a string. Support for english, CJK and Cyrillic.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/regexps/word-regex",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "regexps/word-regex",
+  "bugs": {
+    "url": "https://github.com/regexps/word-regex/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "count",
+    "detect",
+    "exec",
+    "expression",
+    "find",
+    "match",
+    "regex",
+    "regexp",
+    "regular",
+    "split",
+    "test",
+    "word",
+    "words"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "whitespace-regex",
+        "todo-regex",
+        "is-equal-regex",
+        "copyright-regex"
+      ]
+    }
+  }
+}
