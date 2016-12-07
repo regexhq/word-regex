@@ -20,6 +20,7 @@
     "test": "mocha"
   },
   "devDependencies": {
+    "gulp-format-md": "^0.1.11",
     "mocha": "*"
   },
   "keywords": [
@@ -45,6 +46,21 @@
         "todo-regex",
         "whitespace-regex"
       ]
-    }
+    },
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
