@@ -9,6 +9,9 @@
     "url": "https://github.com/regexps/word-regex/issues"
   },
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
@@ -37,10 +40,10 @@
   "verb": {
     "related": {
       "list": [
-        "whitespace-regex",
-        "todo-regex",
+        "copyright-regex",
         "is-equal-regex",
-        "copyright-regex"
+        "todo-regex",
+        "whitespace-regex"
       ]
     }
   }
