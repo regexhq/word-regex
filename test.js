@@ -39,4 +39,8 @@ describe('wordRegex', function () {
   it('should count the words in korean-latin-cyrillic string', function () {
     assert.strictEqual(wordcount('I am from България, and speak 한국어 언어'), 8);
   });
+
+  it('should count the words in swedish string', function() {
+    assert.strictEqual(wordcount('Island is ö, stream is å and then we have ä. ÅÄÖ!'), 12);
+  })
 });
