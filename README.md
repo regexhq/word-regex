@@ -15,9 +15,9 @@ $ npm install --save word-regex
 ```js
 var regex = require('word-regex')();
 
-regex.match('match words.');
+'match words.'.match(regex);
 //=> ['match', 'words']
-regex.match('match words, again.');
+'match words, again.'.match(regex);
 //=> ['match', 'words', 'again']
 ```
 
