@@ -1,4 +1,4 @@
-# word-regex [![NPM version](https://img.shields.io/npm/v/word-regex.svg?style=flat)](https://www.npmjs.com/package/word-regex) [![NPM monthly downloads](https://img.shields.io/npm/dm/word-regex.svg?style=flat)](https://npmjs.org/package/word-regex)  [![NPM total downloads](https://img.shields.io/npm/dt/word-regex.svg?style=flat)](https://npmjs.org/package/word-regex) [![Linux Build Status](https://img.shields.io/travis/regexps/word-regex.svg?style=flat&label=Travis)](https://travis-ci.org/regexps/word-regex)
+# word-regex [![NPM version](https://img.shields.io/npm/v/word-regex.svg?style=flat)](https://www.npmjs.com/package/word-regex) [![NPM monthly downloads](https://img.shields.io/npm/dm/word-regex.svg?style=flat)](https://npmjs.org/package/word-regex)  [![NPM total downloads](https://img.shields.io/npm/dt/word-regex.svg?style=flat)](https://npmjs.org/package/word-regex) [![Linux Build Status](https://img.shields.io/travis/regexhq/word-regex.svg?style=flat&label=Travis)](https://travis-ci.org/regexhq/word-regex)
 
 > Regular expression for matching words in a string. Support for english, CJK and Cyrillic.
 
