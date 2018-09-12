@@ -24,6 +24,10 @@ describe('wordRegex', function () {
     assert.strictEqual(wordcount('Count the words in string, again.'), 6);
   });
 
+  it('should count contractions in a string as one word.', function () {
+    assert.strictEqual(wordcount('You can\'t count contractions as two words.'), 7);
+  });
+
   it('should count the words in a cyrillic string.', function () {
     assert.strictEqual(wordcount('Тест стринг кирилица.'), 3)
   });
@@ -42,5 +46,9 @@ describe('wordRegex', function () {
 
   it('should count the words in swedish string', function() {
     assert.strictEqual(wordcount('Island is ö, stream is å and then we have ä. ÅÄÖ!'), 12);
+  })
+
+  it('should count the words in armenian string with apostrophe', function() {
+    assert.strictEqual(wordcount('Լինում է, չի լինում մի խեղճ մարդանունը Նազար: Էս Նազարը մի անշնորհք ու ալարկոտ մարդ է լինում: Էնքան էլ վախկոտ, էնքան էլ վախկոտ, որ մենակ ոտը ոտի առաջ չէր դնիլ, թեկուզ սպանեիր: Օրը մինչև իրիկուն կնկա կողքը կտրած նրա հետ էր դուրս գնալիս դուրս էր գնում, տուն գալիս` տուն գալի: Դրա համար էլ անունը դնում են վախկոտ Նազար: Ժաննա դ՚Արկ'), 60);
   })
 });
